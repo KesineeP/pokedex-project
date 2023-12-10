@@ -1,0 +1,29 @@
+body {
+    background-color: lightblue;
+}
+
+.app {
+    text-align: center;
+}
+
+.pokedex-container {
+    border: solid 1px grey;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px grey;
+    padding: 20px;
+    background-color: rgb(58, 130, 106);
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+.header {
+    font-family: 'Silkscreen', sans-serif;
+    display: flex;
+}
+
+.fav-icon{
+    height: 30px;
+    cursor: pointer;
+}
